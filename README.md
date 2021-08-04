@@ -1,10 +1,7 @@
-- 👋 Hi, I’m @hemsingh81
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 👋 Hi, I’m Hem Singh 
+- 👀 I’m interested in Web development based on Microsoft platform
+- 🌱 I’m currently learning Clound technologies
+- 💞️ I’m looking to collaborate on open source projects.
+- 📫 How to reach me on @hemsingh81  / hemsingh81@gmail.com
 
-<!---
-hemsingh81/hemsingh81 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- 👀 👀 👀 I',m waiting for you.....
