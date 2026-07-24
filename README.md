@@ -2,17 +2,17 @@
 
 # Hem Singh
 
-### Solution Architect · Python & .NET · Data Integration at Scale
+### Solution Architect · Azure & .NET · Enterprise Web Applications & Data Platforms
 
 <p>
-<em>20 years building the plumbing that enterprises run on —<br/>
-APIs that don't drop payloads, ETL that reconciles itself, and reports the business actually trusts.</em>
+<em>15+ years owning solutions end to end — architecture, integration design,<br/>
+build, release and production governance — for regulated clients in<br/>
+asset management, energy, healthcare and public sector.</em>
 </p>
 
 <a href="mailto:hemsingh81@gmail.com"><img src="https://img.shields.io/badge/Email-hemsingh81@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://www.linkedin.com/in/hemsingh27"><img src="https://img.shields.io/badge/LinkedIn-hemsingh27-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<img src="https://img.shields.io/badge/Based_in-India-138808?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location"/>
-<img src="https://img.shields.io/badge/Open_to-Architecture_%26_Platform_Roles-6E56CF?style=for-the-badge" alt="Status"/>
+<img src="https://img.shields.io/badge/Currently-TCW_Group,_Los_Angeles-1F6FEB?style=for-the-badge" alt="Current client"/>
 
 </div>
 
@@ -20,34 +20,52 @@ APIs that don't drop payloads, ETL that reconciles itself, and reports the busin
 
 ## `> whoami`
 
-```python
-class HemSingh:
-    role       = "Solution Architect & Full Stack Engineer & Quant Developer"
-    experience = 20  # years, and still writing code every day
-    now        = "Python integration services for a US asset manager (TCW)"
+```csharp
+public sealed class HemSingh : ISolutionArchitect
+{
+    public string  Title      => "Solution Architect / Offshore Lead";
+    public int     Years      => 15;
+    public string  Now        => "Investment reporting & Aladdin data integration @ TCW Group";
+    public int     TeamSize   => 6;
 
-    builds = {
-        "services":    ["Python REST clients", "ASP.NET Core Web API", "Azure Functions"],
-        "data":        ["config-driven ETL", "SQL Server", "Azure SQL", "Snowflake"],
-        "platform":    ["Azure App Services", "Blob Storage", "Azure DevOps CI/CD"],
-        "intelligence":["Azure AI / Cognitive Services", "OCR pipelines", "Copilot-assisted dev"],
-    }
+    public string[] OwnsEndToEnd =>
+    [
+        "Architecture & integration design",
+        "Build, release and CI/CD strategy",
+        "Production governance and SLA-bound incident response",
+        "Design authority across delivery teams"
+    ];
 
-    principles = [
-        "Configuration over hard-coding — pipelines should be data, not deployments.",
-        "Every integration needs three things: retries, structured logs, reconciliation.",
-        "Ship the boring, observable thing. Cleverness is a maintenance tax.",
-        "The report is the product. Latency and correctness are features.",
-    ]
+    public string[] Principles =>
+    [
+        "Design the contract before the code. Integrations fail at the seams.",
+        "Orchestration is a first-class concern — jobs need dependency awareness, not cron.",
+        "A pattern reused by five teams beats a clever solution used by one.",
+        "Pre-market windows don't move. Build for the deadline, not the happy path."
+    ];
+}
 ```
 
 ---
 
 ## `> currently`
 
-**Technical Manager @ Publicis Sapient** · Client: **TCW (The TCW Group)**, Los Angeles
+**Technical Manager @ Publicis Sapient** · Client: **TCW Group**, Los Angeles 🇺🇸 · *Solution Architect / Offshore Lead*
 
-Building the Python service layer that pulls portfolio, position, and transaction data out of the **BlackRock Aladdin REST API** — OAuth handshake, paged fetches, schema validation — and lands it in SQL Server and Snowflake on a daily cycle that reconciles itself before anyone opens a dashboard. Alongside it: **Azure AI / Cognitive Services** doing the OCR work a human used to do by hand, and the **EM / EQ reporting modules** in ASP.NET that investment and ops teams open every morning.
+Own the solution design for the **Emerging Markets and Equity reporting platform** — application tier, Web API layer, and the data pipeline beneath it — leading 6 engineers across multiple projects. The core of it: **FastAPI ETL services** ingesting portfolio, position and transaction data from the **BlackRock Aladdin API** into SQL Server and Snowflake, orchestrated across **Azure Data Factory, Tidal Workload Automation and Apache Airflow** with dependency-aware sequencing that lands inside the pre-market reporting window **99%+ of the time**.
+
+---
+
+## `> impact`
+
+<div align="center">
+
+| | | | |
+|:---:|:---:|:---:|:---:|
+| **99%+** | **40%** | **60%** | **50%** |
+| on-time delivery into the<br/>pre-market reporting window | faster report generation<br/>after query-tuning standards | manual effort removed<br/>at TengizChevroil | shorter release cycles<br/>after CI/CD rollout |
+
+</div>
 
 ---
 
@@ -57,60 +75,60 @@ Building the Python service layer that pulls portfolio, position, and transactio
 <tr>
 <td valign="top" width="50%">
 
-**Core Languages & Runtimes**
+**Architecture**
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white"/> <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white"/> <img src="https://img.shields.io/badge/T--SQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/Microservices-6E56CF?style=flat-square"/> <img src="https://img.shields.io/badge/Event--Driven-6E56CF?style=flat-square"/> <img src="https://img.shields.io/badge/Serverless-6E56CF?style=flat-square"/>
 
-Python · C# · ASP.NET Core · ASP.NET MVC · .NET 5 · T-SQL · JavaScript
+Solution & application architecture · microservices · n-tier · event-driven & serverless design · RESTful API design · integration & contract design · data modelling · CI/CD strategy · technical governance · design authority
 
 </td>
 <td valign="top" width="50%">
 
-**APIs & Integration**
+**Azure**
 
-<img src="https://img.shields.io/badge/REST-005571?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Web_API-512BD4?style=flat-square&logo=dotnet&logoColor=white"/> <img src="https://img.shields.io/badge/JSON_%2F_XML-000000?style=flat-square&logo=json&logoColor=white"/>
+<img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/> <img src="https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white"/>
 
-REST design & consumption · OAuth / token auth · pagination & rate-limit handling · retry + backoff · idempotent ingestion · BlackRock Aladdin API
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**Data & Warehousing**
-
-<img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white"/> <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white"/> <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
-
-SQL Server · Azure SQL · Snowflake · stored procedures · query tuning · schema design · ETL pipelines · Azure Data Factory · Power BI · IBM Cognos
-
-</td>
-<td valign="top">
-
-**Cloud & Delivery**
-
-<img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/> <img src="https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-
-App Services · Functions · Blob Storage · Cosmos DB · Entra ID (AAD) · Azure DevOps CI/CD · Git · Bitbucket · Scrum / Kanban
+App Services · Functions · Azure SQL Database · Blob Storage · Cosmos DB · Azure AD · Azure Data Factory · Azure DevOps (CI/CD)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-**AI in the Loop**
+**Backend**
 
-<img src="https://img.shields.io/badge/Azure_AI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white"/> <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white"/>
+<img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white"/> <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
 
-Cognitive Services (OCR, Speech) · document extraction pipelines · AI-assisted development, human-reviewed
+ASP.NET Core · ASP.NET MVC · .NET 5+ · C# · Web API · RESTful services · microservices · OOP · ADO.NET · Python · FastAPI
 
 </td>
 <td valign="top">
 
-**Frontend & CMS**
+**Data & Orchestration**
 
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/AngularJS-DD0031?style=flat-square&logo=angular&logoColor=white"/> <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white"/> <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white"/> <img src="https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white"/> <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
 
-React · Angular JS · Knockout JS · jQuery · HTML / CSS · Sitecore · SDL Tridion · SharePoint Online
+SQL Server · T-SQL · stored procedures · query tuning · Snowflake · Azure Data Factory · Tidal Workload Automation · Apache Airflow · FastAPI ETL services · BlackRock Aladdin API · Power BI · IBM Cognos
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Frontend**
+
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white"/> <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white"/>
+
+JavaScript · jQuery · React JS · Angular · Knockout JS · HTML5 · CSS3
+
+</td>
+<td valign="top">
+
+**Platforms & Ways of Working**
+
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white"/>
+
+Sitecore · SDL Tridion · SharePoint Online · Git · Bitbucket · TFS · Jira · Azure Boards · Agile / Scrum · Kanban · design & code review · technical mentoring · production governance · AI-assisted development
 
 </td>
 </tr>
@@ -118,51 +136,50 @@ React · Angular JS · Knockout JS · jQuery · HTML / CSS · Sitecore · SDL Tr
 
 ---
 
-## `> impact`
+## `> architecture highlights`
 
-<div align="center">
-
-|:---:|:---:|:---:|:---:|
-| **60%** | **50%** | **25%** | **20 yrs** |
-| manual effort removed<br/>via cloud workflow tools | shorter release cycles<br/>after CI/CD rollout | fewer processing errors<br/>in automated ETL | shipping enterprise<br/>systems end to end |
-
-</div>
+- **Aladdin-to-warehouse data platform** behind TCW's investment reporting — FastAPI ETL services and Azure Data Factory pipelines, orchestrated through Tidal Workload Automation and Apache Airflow into SQL Server and Snowflake.
+- **Microservices decomposition and Azure hosting topology** for TengizChevroil's construction-completion platform — four business-critical workflows automated, manual effort down 60%.
+- **Web API, data-access and CI/CD patterns** established and reused across delivery teams at both TCW and TengizChevroil, halving release cycle time at the latter.
+- Architecture and technical design delivered for **TCW Group, Sculptor Capital, Bain Capital, Chevron, Bupa and the NHS**.
 
 ---
 
 ## `> track record`
 
 <details open>
-<summary><b>Technical Manager</b> · Publicis Sapient · <i>May 2025 – Present</i> — TCW, Los Angeles 🇺🇸</summary>
+<summary><b>Technical Manager</b> · Publicis Sapient · <i>May 2025 – Present</i> — TCW Group, Los Angeles 🇺🇸</summary>
 
 <br/>
 
-`Python` `Aladdin REST API` `Azure AI` `ETL` `ASP.NET` `C#` `Web API` `SQL Server` `Snowflake`
+`ASP.NET` `C#` `Web API` `React JS` `Python` `FastAPI` `Aladdin API` `Azure Data Factory` `Tidal` `Airflow` `SQL Server` `Azure SQL` `Snowflake` `Copilot`
 
-- Designed and built the **Python integration service** consuming the BlackRock Aladdin REST API — authentication, paged requests, response parsing — pulling portfolio, position, and transaction data into SQL Server and Snowflake with automated validation and error handling.
-- Architected the ETL layer as **configuration-driven, reusable modules** with structured logging, retry logic, and reconciliation checks, automating the daily ingestion cycle end to end.
-- Wired **Azure AI / Cognitive Services** into Python services to extract data from unstructured inputs, retiring a manual handling step and feeding results straight into reporting workflows.
-- Used **GitHub Copilot** daily for generation, refactoring, and test scaffolding — with peer review kept firmly in the loop.
-- Built and extended the **EM (Emerging Market)** and **EQ (Equity)** reporting modules in ASP.NET / C#, plus new controllers, RESTful endpoints, and report screens on reusable patterns.
-- Shipped a **cross-platform database utility generator** targeting both Azure SQL and Snowflake, standardising script and data-access generation for the team.
-- Ran production support for business-critical reporting: incident triage, slow-query tuning, and data discrepancy resolution inside SLA.
+- Own the solution design for the Emerging Markets and Equity reporting platform — application tier, Web API layer and the data pipeline beneath it — **leading 6 engineers** across multiple projects.
+- Architected and built **FastAPI ETL services** ingesting portfolio, position and transaction data from the BlackRock Aladdin API into SQL Server and Snowflake, with automated validation, retry logic and reconciliation checks *(team of 4)*.
+- Designed the **orchestration layer** for the daily ingestion cycle across Azure Data Factory pipelines, Tidal Workload Automation and Airflow DAGs — four scheduled jobs with dependency-aware sequencing, structured logging and automated failure alerting, landing inside the pre-market window at **99%+ on-time completion**.
+- Defined the server-side controller and **RESTful Web API patterns now reused across every reporting module**, replacing per-report bespoke code and shortening the build cycle for new reports; delivered the React JS report screens.
+- Designed a **cross-platform database utility generator** for Azure SQL and Snowflake, standardising script and data-access generation and giving the team one repeatable path from schema change to release *(team of 3)*.
+- Set data modelling and query-tuning standards across SQL Server, Azure SQL and Snowflake, **cutting average report generation time ~40%** while absorbing growing data volumes.
+- Own **production governance** for business-critical processes — incident triage, root-cause analysis, slow-query tuning and data-discrepancy resolution within agreed SLAs.
+- Introduced **AI-assisted development** to the team: drove GitHub Copilot adoption and set usage and review guidelines, accelerating boilerplate, test scaffolding and ETL script work while holding code-review standards.
 
 </details>
 
 <details>
-<summary><b>System Completion Engineer — Database</b> · TengizChevroil · <i>Aug 2021 – Feb 2025</i> — Kazakhstan 🇰🇿 (on site)</summary>
+<summary><b>System Completion Engineer — Solution Architecture & Database</b> · Novus Bolashak · <i>Aug 2021 – Feb 2025</i> — TengizChevroil, Kazakhstan 🇰🇿 (on site)</summary>
 
 <br/>
 
-`Python` `Azure Data Factory` `ASP.NET Core` `Azure Functions` `C#` `Angular` `SQL Server` `Power BI`
+`ASP.NET Core` `C#` `Azure App Services` `Azure Functions` `Azure Data Factory` `SQL Server` `Angular` `Python` `Power BI` `Azure DevOps`
 
-- Built and deployed cloud-based construction tools — commissioning certificates, contract transfer, exception handling, change notice — on ASP.NET Core, Azure Functions, and App Services, **cutting manual effort by 60%**.
-- Wrote Python services to extract, cleanse, and validate construction and completion data, feeding curated datasets into SQL Server and the Power BI layer.
-- Delivered **Power BI dashboards** across every construction phase — Workdown, Mechanical Completion, RFO, Commissioning — for real-time progress tracking.
-- Designed a **microservices architecture** on Azure and optimised SQL Server schemas for query speed, data integrity, and governance.
-- Automated ETL with Azure Functions, **reducing processing errors by 25%**.
-- Stood up **Azure DevOps CI/CD pipelines**, **halving release cycle time**.
-- Mentored engineers on cloud, microservices, and API practice; presented directly to stakeholders.
+- Solution architect for the construction-completion platform: defined the **microservices decomposition, Azure hosting topology** (App Services, Functions, Blob Storage, Azure SQL) and the integration contracts between systems.
+- Designed and delivered **four cloud applications** on ASP.NET Core and Azure Functions — commissioning certificates, contract transfer, exception handling and change notice — **cutting manual effort by 60%**.
+- Designed the ETL and orchestration layer on Azure Data Factory and Functions, adding validation that **reduced processing errors by 25%**.
+- Modelled and optimised SQL Server schemas for query performance, data integrity and governance across the completion, commissioning and change-management domains.
+- Defined the **RESTful API contracts** enabling real-time data exchange between construction systems; delivered the Angular and jQuery front ends that made complex approval processes usable.
+- Built **Power BI dashboards** covering every construction phase — Workdown, Mechanical Completion, RFO, Commissioning — giving leadership real-time completion tracking.
+- Established Azure DevOps **CI/CD pipelines and release strategy, halving release cycle time**; adopted Blob Storage and SharePoint Online for secure document management.
+- Mentored engineers on Azure, microservices and API design; presented architecture decisions to stakeholders for iterative refinement.
 
 </details>
 
@@ -171,25 +188,24 @@ React · Angular JS · Knockout JS · jQuery · HTML / CSS · Sitecore · SDL Tr
 
 <br/>
 
-`C#` `Web API` `ASP.NET MVC` `Knockout JS` `Angular JS` `SQL Server` `Azure Data Factory` `IBM Cognos`
+`C#` `ASP.NET MVC` `Web API` `jQuery` `Knockout JS` `Angular JS` `SQL Server` `Azure Data Factory` `Power BI` `IBM Cognos`
 
-- Architected and delivered scalable web applications for two US financial services clients, from requirements through production.
-- Built interactive data visualisations in Power BI and IBM Cognos, **improving decision-making efficiency by 20%**.
-- Automated ETL pipelines with Azure Data Factory, **cutting manual processing by 30%**.
-- Raised team velocity **20%** through sprint planning and scrum facilitation, and reduced post-deployment defects **15%**.
+- Architected and delivered scalable web applications for two **US alternative-investment managers**, owning technical design from requirements through production release.
+- Designed and automated **ETL pipelines in Azure Data Factory** for ingestion, transformation and validation — **manual processing down 30%**.
+- Delivered interactive reporting in Power BI and IBM Cognos, **improving decision turnaround by 20%**.
+- Ran sprint planning and daily scrums, **lifting team velocity 20%** and **cutting post-deployment defects 15%**.
 
 </details>
 
 <details>
-<summary><b>Senior Associate Technology L1</b> · Publicis Sapient · <i>Apr 2012 – Sep 2016</i> — Bupa 🇬🇧 · NHS E-Contracting 🇬🇧 · Unilever 🇬🇧</summary>
+<summary><b>Senior Associate Technology L1</b> · Publicis Sapient · <i>Apr 2012 – Sept 2016</i> — Bupa 🇬🇧 · NHS E-Contracting 🇬🇧 · Unilever 🇬🇧 (on site)</summary>
 
 <br/>
 
-`SDL Tridion` `Sitecore` `C#` `Web API` `ASP.NET MVC` `jQuery` `SQL Server` `TFS`
+`SDL Tridion 2011` `Sitecore 7` `C#` `ASP.NET MVC` `Web API` `jQuery` `SQL Server` `TFS`
 
-- Architected scalable applications for UK healthcare and FMCG clients, translating complex requirements into user stories and functional designs.
-- Presented PoCs and technical designs to stakeholders to drive build-vs-buy and architecture decisions.
-- Ran sprint ceremonies, mentored engineers, and enforced coding standards through structured code review.
+- Designed and delivered content-managed and transactional web platforms for UK enterprise clients across **healthcare, public sector and FMCG**.
+- Presented proofs of concept and technical designs to client stakeholders, shaping solution direction before build; owned coding standards and code review across the team.
 
 </details>
 
@@ -198,10 +214,8 @@ React · Angular JS · Knockout JS · jQuery · HTML / CSS · Sitecore · SDL Tr
 
 <br/>
 
-`C#` `Solark Service` `Right Angle` `ASP.NET` `SQL Server` `TFS`
-
-- Built and optimised the Chevron Data Quality Tool; profiled performance bottlenecks and shipped targeted fixes.
-- Tuned SQL Server queries for throughput and maintained QA gates across releases.
+- Built and maintained C# / ASP.NET applications integrating with **Solarc Right Angle** services for energy and mining clients.
+- Profiled and removed performance bottlenecks; tuned SQL Server queries to improve data retrieval efficiency.
 
 </details>
 
@@ -212,8 +226,8 @@ React · Angular JS · Knockout JS · jQuery · HTML / CSS · Sitecore · SDL Tr
 
 | Period | Role | Company |
 |---|---|---|
-| May 2007 – Jul 2009 | Software Engineer | HCL Technologies Limited, Noida |
-| Jul 2006 – May 2007 | Software Engineer | Suntec India, Delhi |
+| May 2007 – Jul 2009 | Software Engineer | HCL Technologies |
+| Jul 2006 – May 2007 | Software Engineer | Suntec India |
 
 </details>
 
@@ -221,8 +235,8 @@ React · Angular JS · Knockout JS · jQuery · HTML / CSS · Sitecore · SDL Tr
 
 ## `> education`
 
-**M.C.A.**, U.P. Technical University, Lucknow · *2003 – 2006*
-**B.C.A.**, C.C.S. University, Meerut · *1999 – 2002*
+**Master of Computer Applications (MCA)** — U.P. Technical University, Lucknow · *2003 – 2006*
+**Bachelor of Computer Applications (BCA)** — C.C.S. University, Meerut · *1999 – 2002*
 
 ---
 
@@ -233,6 +247,6 @@ React · Angular JS · Knockout JS · jQuery · HTML / CSS · Sitecore · SDL Tr
 <a href="mailto:hemsingh81@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/hemsingh27"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 
-<sub>References available on request.</sub>
+<sub>+91 84477 50709 · References available on request.</sub>
 
 </div>
