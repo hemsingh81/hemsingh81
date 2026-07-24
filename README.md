@@ -22,7 +22,7 @@ APIs that don't drop payloads, ETL that reconciles itself, and reports the busin
 
 ```python
 class HemSingh:
-    role       = "Solution Architect & Full Stack Engineer"
+    role       = "Solution Architect & Full Stack Engineer & Quant Developer"
     experience = 20  # years, and still writing code every day
     now        = "Python integration services for a US asset manager (TCW)"
 
@@ -122,7 +122,6 @@ React · Angular JS · Knockout JS · jQuery · HTML / CSS · Sitecore · SDL Tr
 
 <div align="center">
 
-| | | | |
 |:---:|:---:|:---:|:---:|
 | **60%** | **50%** | **25%** | **20 yrs** |
 | manual effort removed<br/>via cloud workflow tools | shorter release cycles<br/>after CI/CD rollout | fewer processing errors<br/>in automated ETL | shipping enterprise<br/>systems end to end |
