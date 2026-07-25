@@ -236,6 +236,7 @@ Sitecore · SDL Tridion · SharePoint Online · Git · Bitbucket · TFS · Jira 
 ## `> education`
 
 **Master of Computer Applications (MCA)** — U.P. Technical University, Lucknow · *2003 – 2006*
+<br/>
 **Bachelor of Computer Applications (BCA)** — C.C.S. University, Meerut · *1999 – 2002*
 
 ---
